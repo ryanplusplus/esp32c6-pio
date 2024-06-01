@@ -1,0 +1,44 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PlatformIO Debugging Solution
+//
+// Documentation: https://docs.platformio.org/en/latest/plus/debugging.html
+// Configuration: https://docs.platformio.org/en/latest/projectconf/sections/env/options/debug/index.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/ryan/git/pio-esp32-c6/.pio/build/esp32-c6/firmware.elf",
+            "projectEnvName": "esp32-c6",
+            "toolchainBinDir": "/home/ryan/.platformio/packages/toolchain-riscv32-esp@12.2.0+20230208/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/ryan/git/pio-esp32-c6/.pio/build/esp32-c6/firmware.elf",
+            "projectEnvName": "esp32-c6",
+            "toolchainBinDir": "/home/ryan/.platformio/packages/toolchain-riscv32-esp@12.2.0+20230208/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/ryan/git/pio-esp32-c6/.pio/build/esp32-c6/firmware.elf",
+            "projectEnvName": "esp32-c6",
+            "toolchainBinDir": "/home/ryan/.platformio/packages/toolchain-riscv32-esp@12.2.0+20230208/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
+        }
+    ]
+}
